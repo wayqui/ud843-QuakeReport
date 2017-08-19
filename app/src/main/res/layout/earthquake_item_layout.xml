@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/linearLayout1">
+
+    <TextView
+        android:id="@+id/tvMagnitud"
+        style="@style/textStyMagnitud"
+        tools:text="75" />
+
+    <LinearLayout
+        style="@style/linearLayout2">
+
+        <TextView
+            android:id="@+id/tvLocalizacion"
+            style="@style/textStyleLocation"
+            tools:text="27 Km al sur de" />
+
+        <TextView
+            android:id="@+id/tvUbicacion"
+            style="@style/textStyleUbicacion"
+            tools:text="Long placeholder location that should wrap to more than 2 lines of text" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linearLayout3">
+
+        <TextView
+            android:id="@+id/tvFecha"
+            style="@style/textStyle2"
+            tools:text="Jun 26, 2017" />
+
+        <TextView
+            android:id="@+id/tvHora"
+            style="@style/textStyle2"
+            tools:text="4:17 AM" />
+    </LinearLayout>
+
+</LinearLayout>
